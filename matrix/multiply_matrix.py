@@ -1,10 +1,12 @@
 from create_matrix import create_matrix
 import numpy
+# Вычисление произведения матриц, принимает две матрицы
 
 def multiply_matrix(a, b):
     a = numpy.array(a, dtype=numpy.float32)
     b = numpy.array(b, dtype=numpy.float32)
     print(a.dot(b))
+
 
 if __name__ == "__main__":
     n = ""
